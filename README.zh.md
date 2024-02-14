@@ -12,6 +12,8 @@
 **无需改变现有的制作流程，即可立即使用。**
 
 ![Auto Color Chart 2 主窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/mian.png "Auto Color Chart 2 主窗口")
+*Auto Color Chart 2主窗口*
+*演示中使用的色见本已得到公开许可*
 
 ## 特点
 - **颜色框的自动识别**：利用图像处理技术自动识别色见本内的颜色及其类型，并进行分组。
