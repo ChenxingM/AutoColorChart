@@ -68,3 +68,4 @@
 - AutoColorChart_2.2DevBeta_JP.exe (日本語版)
 - AutoColorChartBeta_CN.jsx (簡体字中国語版)
 - AutoColorChartBeta_JP.jsx (日本語版)
+- AutoColorChar2_UserGuide.pdf (作成中)
