@@ -73,6 +73,13 @@ Releaseからダウンロードしてください。
 - AutoColorChartBeta_CN.jsx (簡体字中国語版)
 - AutoColorChartBeta_JP.jsx (日本語版)
 - AutoColorChar2_UserGuide.pdf (作成中)
+
+## 動作環境（作者検証済）
+- **ソフト本体**：Windows 10
+- **AEスクリプト**：Adobe After Effect 2023 JavaScriptデバッガーを使用
+- **未検証ですが、特に古いでなければ、他のAEとWindowsバーションで動作するはずです。**
+- **Mac版は一応テストしてはいるが、大多数の撮影プラグインは未対応のため、お勧めしないし、リリースもしません。需要あれば状況に応じてリリースする可能性あり(Apple Silicon verのみ)**
+- **AEスクリプトもまMacでは動作します。**
   
 ## その他
 - Auto Color Chart 1.0のソースコードを公開してます！
