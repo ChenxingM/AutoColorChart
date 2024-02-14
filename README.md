@@ -40,6 +40,7 @@
 - AE内蔵のカラーピッカーツールを使用
 - 選択中またはカラーピッカーで選択したカラーを表示でき、どんな色か一目で確認できます
 - 汎用かつフリーなプラグイン、OLM Color Keepによる一度最大99色が抽出可能
+- **注意：AEスクリプトのみは　MITライセンスに準じます。**
 
 ![AE脚本窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/aescriptmain.png "AE Scriptメインウィンド")
 *AEスクリプトマインウィンド*
