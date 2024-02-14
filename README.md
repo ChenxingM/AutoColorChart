@@ -55,7 +55,7 @@
 - AutoColorChartBeta_CN.jsx (簡体字中国語版)
 - AutoColorChartBeta_JP.jsx (日本語版)
 
-##　特性スクリーンショット
+## 特性スクリーンショット
 
 ![ボックス識別](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/usrboxreg.png "ボックス識別")
 *デフォルトでサポートされていないボックスなど、作品によって特殊なボックスを切り取り、プリセットとして保存できます。*
@@ -63,7 +63,7 @@
 ![ボックス管理作品](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/usrboxmgn.png "ボックス管理")
 *プリセットのユーザーボックスを簡単に変更、削除できる管理画面。作品別にカテゴリーで容易に検索できます。*
 
-![ボックス多様性](https://github.com/ChenxingM/AutoColorChart/blob/main/supportedBoxes/03_00.png "ボックス多様性")
+![ボックス多様性](https://github.com/ChenxingM/AutoColorChart/blob/main/supportedBoxes/03_00.PNG "ボックス多様性")
 *通常のカラーボックスはもちろん、閾値の設定で、分離したボックスも正しく認識できます。*
 
 ![カラーピッカー](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/colorpicker.gif "カラーピッカー")
