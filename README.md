@@ -10,6 +10,7 @@
 **現在の制作工程を全く改変せず、即使用できるツールとなります。**
 
 ![主窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/mian.png "Auto Color Chart 2 メインウィンド")
+*Auto Color Chart 2 メインウィンド*
 
 ## 特徴
 - **カラーボックスの自動識別**: 画像処理技術を利用して色見本内の色とそのタイプを自動的に識別し、グループ分けします。
@@ -24,6 +25,7 @@
 - **色見本データの便利さ**: JSONまたはXMLファイルによる色見本データが保存され、ユーザーが簡単にアクセス、編集できます。
 
 
+
 ## 技術スタック
 ### 本プロジェクトは主にPythonで開発され、以下のライブラリおよび技術を含んでいます：
 - **画像処理**: Pillow
@@ -35,6 +37,13 @@
 - AE内蔵のカラーピッカーツールを使用
 - 選択中またはカラーピッカーで選択したカラーを表示でき、どんな色か一目で確認できます
 - 汎用かつフリーなプラグイン、OLM Color Keepによる一度最大99色が抽出可能
+
+![AE脚本窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/aescriptmain.png "AE Scriptメインウィンド")
+*AEスクリプトマインウィンド*
+
+![AE脚本窗口2](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/aescripttypepanel.png "AE Scriptメインウィンド2")
+*読み込んだ色見本データから、色のタイプをまとめ、自由にほしい色を抽出できます。色見本にすべてのタイプから、若しくは選択中のグループから　を選択できます。*
+
 
 ## 適用シーン
 このソフトウェアとスクリプトは、アニメ制作における一般的な色見本が使われる現場
