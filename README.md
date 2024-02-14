@@ -64,6 +64,7 @@
 *AEスクリプトUIでは、番号確認するのも面倒、ならカラーピッカーワンクリック！*
 
 ## 配布物
+Releaseからダウンロードしてください。
 - AutoColorChart_2.2DevBeta_CN.exe (簡体字中国語版)
 - AutoColorChart_2.2DevBeta_JP.exe (日本語版)
 - AutoColorChartBeta_CN.jsx (簡体字中国語版)
