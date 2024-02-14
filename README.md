@@ -65,3 +65,6 @@
 
 ![ボックス多様性](https://github.com/ChenxingM/AutoColorChart/blob/main/supportedBoxes/03_00.png "ボックス多様性")
 *通常のカラーボックスはもちろん、閾値の設定で、分離したボックスも正しく認識できます。*
+
+![カラーピッカー](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/colorpicker.gif "カラーピッカー")
+*AEスクリプトUIでは、番号確認するのも面倒、ならカラーピッカーワンクリック！*
