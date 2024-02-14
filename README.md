@@ -49,12 +49,6 @@
 ## 適用シーン
 このソフトウェアとスクリプトは、アニメ制作における一般的な色見本が使われる現場
 
-## 配布物
-- AutoColorChart_2.2DevBeta_CN.exe (簡体字中国語版)
-- AutoColorChart_2.2DevBeta_JP.exe (日本語版)
-- AutoColorChartBeta_CN.jsx (簡体字中国語版)
-- AutoColorChartBeta_JP.jsx (日本語版)
-
 ## 特性スクリーンショット
 
 ![ボックス識別](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/usrboxreg.png "ボックス識別")
@@ -68,3 +62,9 @@
 
 ![カラーピッカー](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/colorpicker.gif "カラーピッカー")
 *AEスクリプトUIでは、番号確認するのも面倒、ならカラーピッカーワンクリック！*
+
+## 配布物
+- AutoColorChart_2.2DevBeta_CN.exe (簡体字中国語版)
+- AutoColorChart_2.2DevBeta_JP.exe (日本語版)
+- AutoColorChartBeta_CN.jsx (簡体字中国語版)
+- AutoColorChartBeta_JP.jsx (日本語版)
