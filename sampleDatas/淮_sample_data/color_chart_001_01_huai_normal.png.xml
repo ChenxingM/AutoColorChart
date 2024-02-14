@@ -1,0 +1,343 @@
+<?xml version="1.0" ?>
+<colorChartData programVersion="2.21" dataVersion="1.0">
+    <image name="001_01_huai_normal.png" width="4300" height="2000" gruopNum="23">
+        <group id="1" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="81" g="85" b="93">
+                <area>644</area>
+                <position x="1854.0" y="301.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="65" g="68" b="70">
+                <area>2196</area>
+                <position x="1837.5" y="333.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="46" g="46" b="51">
+                <area>2196</area>
+                <position x="1837.5" y="371.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="33" g="33" b="37">
+                <area>2196</area>
+                <position x="1837.5" y="409.0"/>
+            </color>
+        </group>
+        <group id="2" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="93" g="125" b="126">
+                <area>644</area>
+                <position x="2010.0" y="301.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="89" g="109" b="111">
+                <area>2196</area>
+                <position x="1993.5" y="333.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="68" g="70" b="88">
+                <area>2196</area>
+                <position x="1993.5" y="371.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="51" g="52" b="66">
+                <area>2196</area>
+                <position x="1993.5" y="409.0"/>
+            </color>
+        </group>
+        <group id="3" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="90" g="104" b="99">
+                <area>644</area>
+                <position x="3450.0" y="443.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="55" g="55" b="56">
+                <area>2196</area>
+                <position x="3433.5" y="475.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="41" g="41" b="45">
+                <area>2196</area>
+                <position x="3433.5" y="513.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="19" g="19" b="21">
+                <area>2196</area>
+                <position x="3433.5" y="551.0"/>
+            </color>
+        </group>
+        <group id="4" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="245" g="218" b="208">
+                <area>644</area>
+                <position x="4184.0" y="443.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="240" g="183" b="158">
+                <area>2196</area>
+                <position x="4167.5" y="475.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="163" g="115" b="111">
+                <area>2196</area>
+                <position x="4167.5" y="513.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="143" g="96" b="90">
+                <area>2196</area>
+                <position x="4167.5" y="551.0"/>
+            </color>
+        </group>
+        <group id="5" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="111" g="189" b="138">
+                <area>644</area>
+                <position x="2629.0" y="491.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="112" g="141" b="119">
+                <area>2196</area>
+                <position x="2612.5" y="523.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="89" g="99" b="95">
+                <area>2196</area>
+                <position x="2612.5" y="561.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="72" g="81" b="77">
+                <area>2196</area>
+                <position x="2612.5" y="599.0"/>
+            </color>
+        </group>
+        <group id="6" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="66" g="77" b="84">
+                <area>644</area>
+                <position x="2010.0" y="520.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="58" g="67" b="73">
+                <area>2196</area>
+                <position x="1993.5" y="552.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="35" g="38" b="45">
+                <area>2196</area>
+                <position x="1993.5" y="590.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="26" g="29" b="34">
+                <area>2196</area>
+                <position x="1993.5" y="628.0"/>
+            </color>
+        </group>
+        <group id="7" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="81" g="94" b="97">
+                <area>644</area>
+                <position x="1090.0" y="661.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="74" g="82" b="84">
+                <area>2196</area>
+                <position x="1073.5" y="693.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="49" g="48" b="54">
+                <area>2196</area>
+                <position x="1073.5" y="731.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="36" g="35" b="39">
+                <area>2196</area>
+                <position x="1073.5" y="769.0"/>
+            </color>
+        </group>
+        <group id="8" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="255" g="219" b="204">
+                <area>644</area>
+                <position x="4184.0" y="694.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="253" g="197" b="167">
+                <area>2196</area>
+                <position x="4167.5" y="726.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="174" g="120" b="114">
+                <area>2196</area>
+                <position x="4167.5" y="764.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="151" g="104" b="98">
+                <area>2196</area>
+                <position x="4167.5" y="802.0"/>
+            </color>
+        </group>
+        <group id="9" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="253" g="246" b="244">
+                <area>644</area>
+                <position x="3450.0" y="723.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="253" g="229" b="211">
+                <area>2196</area>
+                <position x="3433.5" y="755.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="161" g="128" b="125">
+                <area>2196</area>
+                <position x="3433.5" y="793.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="133" g="101" b="102">
+                <area>2196</area>
+                <position x="3433.5" y="831.0"/>
+            </color>
+        </group>
+        <group id="10" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="189" g="55" b="76">
+                <area>644</area>
+                <position x="2010.0" y="732.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="150" g="51" b="67">
+                <area>2196</area>
+                <position x="1993.5" y="764.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="97" g="38" b="50">
+                <area>2196</area>
+                <position x="1993.5" y="802.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="73" g="27" b="37">
+                <area>2196</area>
+                <position x="1993.5" y="840.0"/>
+            </color>
+        </group>
+        <group id="11" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="74" g="105" b="124">
+                <area>644</area>
+                <position x="2623.0" y="751.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="51" g="66" b="75">
+                <area>2196</area>
+                <position x="2606.5" y="783.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="29" g="36" b="46">
+                <area>2196</area>
+                <position x="2606.5" y="821.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="18" g="23" b="30">
+                <area>2196</area>
+                <position x="2606.5" y="859.0"/>
+            </color>
+        </group>
+        <group id="12" boxNum="1" validBoxNum="1" orientation="only-one" tag="">
+            <color boxID="1" colorType="normal" r="113" g="73" b="97">
+                <area>2769</area>
+                <position x="3469.5" y="1143.5"/>
+            </color>
+        </group>
+        <group id="13" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="95" g="110" b="104">
+                <area>644</area>
+                <position x="4186.0" y="1168.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="40" g="42" b="48">
+                <area>2196</area>
+                <position x="4169.5" y="1200.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="23" g="24" b="28">
+                <area>2196</area>
+                <position x="4169.5" y="1238.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="15" g="15" b="17">
+                <area>2196</area>
+                <position x="4169.5" y="1276.0"/>
+            </color>
+        </group>
+        <group id="14" boxNum="1" validBoxNum="1" orientation="only-one" tag="">
+            <color boxID="1" colorType="normal" r="73" g="223" b="152">
+                <area>2769</area>
+                <position x="3468.5" y="1262.5"/>
+            </color>
+        </group>
+        <group id="15" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="84" g="109" b="97">
+                <area>644</area>
+                <position x="1279.0" y="1294.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="89" g="99" b="95">
+                <area>2196</area>
+                <position x="1262.5" y="1326.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="57" g="63" b="60">
+                <area>2196</area>
+                <position x="1262.5" y="1364.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="43" g="48" b="46">
+                <area>2196</area>
+                <position x="1262.5" y="1402.0"/>
+            </color>
+        </group>
+        <group id="16" boxNum="2" validBoxNum="2" orientation="vertical" tag="">
+            <color boxID="1" colorType="normal" r="49" g="51" b="58">
+                <area>2196</area>
+                <position x="4172.5" y="1390.0"/>
+            </color>
+            <color boxID="2" colorType="shadow" r="35" g="38" b="46">
+                <area>2196</area>
+                <position x="4172.5" y="1428.0"/>
+            </color>
+        </group>
+        <group id="17" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="244" g="245" b="242">
+                <area>644</area>
+                <position x="3485.0" y="1403.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="255" g="163" b="163">
+                <area>2196</area>
+                <position x="3468.5" y="1435.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="250" g="92" b="95">
+                <area>2196</area>
+                <position x="3468.5" y="1473.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="133" g="46" b="71">
+                <area>2196</area>
+                <position x="3468.5" y="1511.0"/>
+            </color>
+        </group>
+        <group id="18" boxNum="1" validBoxNum="1" orientation="only-one" tag="">
+            <color boxID="1" colorType="normal" r="20" g="20" b="20">
+                <area>2769</area>
+                <position x="4018.5" y="1751.5"/>
+            </color>
+        </group>
+        <group id="19" boxNum="2" validBoxNum="2" orientation="vertical" tag="">
+            <color boxID="1" colorType="normal" r="248" g="230" b="230">
+                <area>2196</area>
+                <position x="3548.5" y="1755.0"/>
+            </color>
+            <color boxID="2" colorType="shadow" r="212" g="192" b="184">
+                <area>2196</area>
+                <position x="3548.5" y="1793.0"/>
+            </color>
+        </group>
+        <group id="20" boxNum="3" validBoxNum="3" orientation="vertical" tag="">
+            <color boxID="1" colorType="normal" r="243" g="243" b="243">
+                <area>2562</area>
+                <position x="3662.5" y="1758.0"/>
+            </color>
+            <color boxID="2" colorType="shadow" r="222" g="221" b="225">
+                <area>2562</area>
+                <position x="3662.5" y="1802.0"/>
+            </color>
+            <color boxID="3" colorType="2nd_shadow" r="196" g="196" b="196">
+                <area>2562</area>
+                <position x="3662.5" y="1846.0"/>
+            </color>
+        </group>
+        <group id="21" boxNum="3" validBoxNum="3" orientation="vertical" tag="">
+            <color boxID="1" colorType="normal" r="196" g="140" b="132">
+                <area>2562</area>
+                <position x="3786.5" y="1758.0"/>
+            </color>
+            <color boxID="2" colorType="shadow" r="144" g="95" b="88">
+                <area>2562</area>
+                <position x="3786.5" y="1802.0"/>
+            </color>
+            <color boxID="3" colorType="2nd_shadow" r="126" g="74" b="73">
+                <area>2562</area>
+                <position x="3786.5" y="1846.0"/>
+            </color>
+        </group>
+        <group id="22" boxNum="3" validBoxNum="3" orientation="vertical" tag="">
+            <color boxID="1" colorType="normal" r="68" g="53" b="53">
+                <area>2562</area>
+                <position x="3900.5" y="1758.0"/>
+            </color>
+            <color boxID="2" colorType="shadow" r="54" g="41" b="41">
+                <area>2562</area>
+                <position x="3900.5" y="1802.0"/>
+            </color>
+            <color boxID="3" colorType="2nd_shadow" r="41" g="32" b="32">
+                <area>2562</area>
+                <position x="3900.5" y="1846.0"/>
+            </color>
+        </group>
+        <group id="23" boxNum="1" validBoxNum="1" orientation="only-one" tag="">
+            <color boxID="1" colorType="normal" r="255" g="255" b="0">
+                <area>2769</area>
+                <position x="4018.5" y="1847.5"/>
+            </color>
+        </group>
+    </image>
+</colorChartData>
