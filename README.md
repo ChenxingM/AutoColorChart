@@ -76,8 +76,8 @@
 
 ## 配布物
 
-- AutoColorChart_2.2DevBeta_CN.exe (簡体字中国語版)
-- AutoColorChart_2.2DevBeta_JP.exe (日本語版)
+- AutoColorChart_2.22.exe (簡体字中国語版)
+- AutoColorChart_2.22_JP.exe (日本語版)
 - AutoColorChartBeta_CN.jsx (簡体字中国語版)
 - AutoColorChartBeta_JP.jsx (日本語版)
 - AutoColorChar2_UserGuide.pdf (作成中)

@@ -65,8 +65,8 @@
 
 ## 发布
 请从Release下载。
-- AutoColorChart_2.2DevBeta_CN.exe (简体中文)
-- AutoColorChart_2.2DevBeta_JP.exe (日语)
+- AutoColorChart_2.22.exe (简体中文)
+- AutoColorChart_2.22_JP.exe (日语)
 - AutoColorChartBeta_CN.jsx (简体中文AE脚本)
 - AutoColorChartBeta_JP.jsx (日语AE脚本)
 - AutoColorChar2_UserGuide.pdf (制作中)
