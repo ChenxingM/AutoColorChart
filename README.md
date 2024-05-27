@@ -30,11 +30,103 @@
 - **色見本データの便利さ**: JSONまたはXMLファイルによる色見本データが保存され、ユーザーが簡単にアクセス、編集できます。
   - XMLファイルに色見本から読み取ることができる情報が全て乗っているので、色見本データの使い道が幅広くなるでしょう。
 
-![JSON](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/json.png "JSON")
-*JSONデータ例*
+*旧JSONデータ例*
+```JSON
+{
+    "001_01_huai_normal.png": {
+        "1": {
+            "hi": [
+                255,
+                165,
+                0
+            ],
+            "normal": [
+                0,
+                255,
+                165
+            ],
+            "shadow": [
+                255,
+                165,
+                0
+            ],
+            "2nd_shadow": [
+                255,
+                165,
+                0
+            ]
+        },
+        "2": {
+            "hi": [
+                0,
+                255,
+                165
+            ],
+            "normal": [
+                0,
+                255,
+                165
+            ],
+            "shadow": [
+                0,
+                255,
+                0
+            ],
+            "2nd_shadow": [
+                255,
+                165,
+                0
+            ]
+        }
+    }
+}
+```
 
-![xml](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/xml.png "xml")
-*XMLデータ例*
+*旧XMLデータ例*
+```XML
+<?xml version="1.0" ?>
+<colorChartData programVersion="2.21" dataVersion="1.0">
+    <image name="001_01_huai_normal.png" width="4300" height="2000" gruopNum="23">
+        <group id="1" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="81" g="85" b="93">
+                <area>644</area>
+                <position x="1854.0" y="301.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="65" g="68" b="70">
+                <area>2196</area>
+                <position x="1837.5" y="333.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="46" g="46" b="51">
+                <area>2196</area>
+                <position x="1837.5" y="371.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="33" g="33" b="37">
+                <area>2196</area>
+                <position x="1837.5" y="409.0"/>
+            </color>
+        </group>
+        <group id="2" boxNum="4" validBoxNum="4" orientation="vertical" tag="">
+            <color boxID="1" colorType="hi" r="93" g="125" b="126">
+                <area>644</area>
+                <position x="2010.0" y="301.5"/>
+            </color>
+            <color boxID="2" colorType="normal" r="89" g="109" b="111">
+                <area>2196</area>
+                <position x="1993.5" y="333.0"/>
+            </color>
+            <color boxID="3" colorType="shadow" r="68" g="70" b="88">
+                <area>2196</area>
+                <position x="1993.5" y="371.0"/>
+            </color>
+            <color boxID="4" colorType="2nd_shadow" r="51" g="52" b="66">
+                <area>2196</area>
+                <position x="1993.5" y="409.0"/>
+            </color>
+        </group>
+    </image>
+</colorChartData>
+
+```
 
 ### 次のバージョンアップでは、新たなJSONとXMLフォーマットを使用予定です。AEスクリプトもその際、新JSON、XMLと従来のJSON、XML両方に対応予定です。
 ### 新JSONはより多くのデータが含まれて、使い道が幅広くなります。
