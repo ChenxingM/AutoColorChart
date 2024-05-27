@@ -33,6 +33,81 @@
 
 ![XML数据示例](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/xml.png "XML数据示例")
 
+### 接下来的版本更新中，将采用新的JSON和XML数据格式。新的JSON比之前拥有更多信息，便于后续的开发和扩展。AE脚本届时也会同步更新，支持新旧JSON和XML
+
+*新JSON数据例*
+```JSON
+{
+    "colorChartData": {
+        "programVersion": 2.23,
+        "dataVersion": 1.1,
+        "markedImgPath": "C:\\this\\is\\a\\sample\\path\\image_marked_colors.png",
+        "image": {
+            "name": "image.png",
+            "path": "C:\\this\\is\\a\\sample\\path\\image.png",
+            "width": 4000,
+            "height": 2000,
+            "gruopNum": 20,
+            "group": [
+                {
+                    "id": 1,
+                    "boxNum": 5,
+                    "validBoxNum": 5,
+                    "orientation": "vertical",
+                    "tag": "",
+                    "groupBoxInfo": {
+                        "boxCordLU": [1000, 50],
+                        "boxCordRD": [1100, 200],
+                        "centerCord": [1050.0, 125.0]
+                    },
+                    "color": [
+                        {
+                            "boxID": 1,
+                            "colorType": "hi",
+                            "area": 1000,
+                            "position": [1020.5, 60.0],
+                            "RGB": [255, 0, 0]
+                        },
+                        {
+                            "boxID": 2,
+                            "colorType": "normal",
+                            "area": 2000,
+                            "position": [1010.5, 100.5],
+                            "RGB": [0, 255, 0]
+                        },
+                        {
+                            "boxID": 3,
+                            "colorType": "shadow_s_hi",
+                            "area": 300,
+                            "position": [1040.5, 120.0],
+                            "RGB": [0, 0, 255]
+                        },
+                        {
+                            "boxID": 4,
+                            "colorType": "shadow",
+                            "area": 2000,
+                            "position": [1010.5, 140.5],
+                            "RGB": [255, 255, 0]
+                        },
+                        {
+                            "boxID": 5,
+                            "colorType": "2nd_shadow",
+                            "area": 2000,
+                            "position": [1010.5, 180.5],
+                            "RGB": [0, 255, 255]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+
+```
+*新XML数据例*
+```XML
+
 ## 技术栈
 ### 本项目主要使用Python开发，包含以下库及技术：
 - **图像处理**：Pillow

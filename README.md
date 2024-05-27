@@ -36,6 +36,136 @@
 ![xml](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/xml.png "xml")
 *XMLデータ例*
 
+### 次のバージョンアップでは、新たなJSONとXMLフォーマットを使用予定です。AEスクリプトもその際、新JSON、XMLと従来のJSON、XML両方に対応予定です。
+### 新JSONはより多くのデータが含まれて、使い道が幅広くなります。
+
+*新JSONデータ例*
+```JSON
+{
+    "colorChartData": {
+        "programVersion": 2.23,
+        "dataVersion": 1.1,
+        "markedImgPath": "C:\\this\\is\\a\\sample\\path\\image_marked_colors.png",
+        "image": {
+            "name": "image.png",
+            "path": "C:\\this\\is\\a\\sample\\path\\image.png",
+            "width": 4000,
+            "height": 2000,
+            "gruopNum": 20,
+            "group": [
+                {
+                    "id": 1,
+                    "boxNum": 5,
+                    "validBoxNum": 5,
+                    "orientation": "vertical",
+                    "tag": "",
+                    "groupBoxInfo": {
+                        "boxCordLU": [1000, 50],
+                        "boxCordRD": [1100, 200],
+                        "centerCord": [1050.0, 125.0]
+                    },
+                    "color": [
+                        {
+                            "boxID": 1,
+                            "colorType": "hi",
+                            "area": 1000,
+                            "position": [1020.5, 60.0],
+                            "RGB": [255, 0, 0]
+                        },
+                        {
+                            "boxID": 2,
+                            "colorType": "normal",
+                            "area": 2000,
+                            "position": [1010.5, 100.5],
+                            "RGB": [0, 255, 0]
+                        },
+                        {
+                            "boxID": 3,
+                            "colorType": "shadow_s_hi",
+                            "area": 300,
+                            "position": [1040.5, 120.0],
+                            "RGB": [0, 0, 255]
+                        },
+                        {
+                            "boxID": 4,
+                            "colorType": "shadow",
+                            "area": 2000,
+                            "position": [1010.5, 140.5],
+                            "RGB": [255, 255, 0]
+                        },
+                        {
+                            "boxID": 5,
+                            "colorType": "2nd_shadow",
+                            "area": 2000,
+                            "position": [1010.5, 180.5],
+                            "RGB": [0, 255, 255]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+
+```
+*新XMLデータ例*
+```XML
+<?xml version="1.0" ?>
+<colorChartData programVersion="2.23" dataVersion="1.1">
+    <markedImgPath>C:/this/is/a/sample/path/image_marked_colors.png</markedImgPath>
+    <image name="image.png" path="C:/this/is/a/sample/path/image.png" width="3600" height="1800" gruopNum="34">
+        <group id="1" boxNum="5" validBoxNum="5" orientation="vertical" tag="">
+            <groupBoxInfo minc="1000" minr="50" maxc="1100" maxr="200" centerX="1050.0" centerY="125.0"/>
+            <color boxID="1" colorType="hi" r="255" g="0" b="0">
+                <area>1000</area>
+                <position x="1020.5" y="60.0"/>
+            </color>
+            <color boxID="2" colorType="normal" r="0" g="255" b="0">
+                <area>2000</area>
+                <position x="1010.5" y="100.5"/>
+            </color>
+            <color boxID="3" colorType="shadow_s_hi" r="0" g="0" b="255">
+                <area>300</area>
+                <position x="1040.5" y="120.0"/>
+            </color>
+            <color boxID="4" colorType="shadow" r="255" g="255" b="0">
+                <area>2000</area>
+                <position x="1010.5" y="140.5"/>
+            </color>
+            <color boxID="5" colorType="2nd_shadow" r="0" g="255" b="255">
+                <area>2000</area>
+                <position x="1010.5" y="180.5"/>
+            </color>
+        </group>
+        <group id="2" boxNum="5" validBoxNum="5" orientation="vertical" tag="">
+            <groupBoxInfo minc="2000" minr="100" maxc="2100" maxr="250" centerX="2050.0" centerY="175.0"/>
+            <color boxID="1" colorType="hi" r="255" g="0" b="0">
+                <area>1000</area>
+                <position x="2020.5" y="110.0"/>
+            </color>
+            <color boxID="2" colorType="normal" r="0" g="255" b="0">
+                <area>2000</area>
+                <position x="2010.5" y="150.5"/>
+            </color>
+            <color boxID="3" colorType="shadow_s_hi" r="0" g="0" b="255">
+                <area>300</area>
+                <position x="2040.5" y="170.0"/>
+            </color>
+            <color boxID="4" colorType="shadow" r="255" g="255" b="0">
+                <area>2000</area>
+                <position x="2010.5" y="190.5"/>
+            </color>
+            <color boxID="5" colorType="2nd_shadow" r="0" g="255" b="255">
+                <area>2000</area>
+                <position x="2010.5" y="230.5"/>
+            </color>
+        </group>
+    </image>
+</colorChartData>
+
+```
+
 
 ## 技術スタック
 ### 本プロジェクトは主にPythonで開発され、以下のライブラリおよび技術を含んでいます：
