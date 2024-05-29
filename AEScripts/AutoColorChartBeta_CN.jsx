@@ -1,8 +1,8 @@
 //===========================================================================================//
 // Script Name: AutoColorChart.jsx
-// Version: 2.21 beta
+// Version: 2.23 beta
 // Author: 千石まよひ
-// Last Update: 2024/01/05
+// Last Update: 2024/05/29
 // License: MIT
 // Copyright 2024 SengokuMayoi (Ma Chenxing)
 //============================================================================================//
@@ -326,7 +326,7 @@ if (typeof JSON !== "object") {
 // ============
 
 var scriptName = "Auto Color Chart";
-var version = "2.21 beta";
+var version = "2.23 beta";
 
 // UI 开始
 // ==========
