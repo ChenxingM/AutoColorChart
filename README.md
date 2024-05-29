@@ -273,7 +273,7 @@
 - **注意：AEスクリプトのみは　MITライセンスに準じます。**
 
 ![AE脚本窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/aescriptmain.png "AE Scriptメインウィンド")
-*AEスクリプトマインウィンド*
+*AEスクリプトのメインウィンド*
 
 ![AE脚本窗口2](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/aescripttypepanel.png "AE Scriptメインウィンド2")
 *タイプパネル：読み込んだ色見本データから、色のタイプをまとめ、自由にほしい色を抽出できます。色見本にすべてのタイプから、若しくは選択中のグループから　を選択できます。色見本読み込むにつれ表示します。閉じてもマインウィンドから呼び出し可能*
