@@ -882,34 +882,77 @@ var palette = (function() {
 	// 解析 XML 返回 JSON
 	// =================
 	function parseXMLtoJSON(xmlData) {
-    var jsonData = {};
-    var imageList = xmlData.image;
-    for (var i = 0; i < imageList.length(); i++) {
-        var image = imageList[i];
-        var imageName = image.@name.toString();
-        jsonData[imageName] = {};
+		var jsonData = {};
+		var imageList = xmlData.image;
+		for (var i = 0; i < imageList.length(); i++) {
+			var image = imageList[i];
+			var imageName = image.@name.toString();
+			jsonData[imageName] = {};
 
-        var groupList = image.group;
-        for (var j = 0; j < groupList.length(); j++) {
-            var group = groupList[j];
-            var groupId = group.@id.toString();
-            jsonData[imageName][groupId] = {};
+			var groupList = image.group;
+			for (var j = 0; j < groupList.length(); j++) {
+				var group = groupList[j];
+				var groupId = group.@id.toString();
+				jsonData[imageName][groupId] = {};
 
-            var colorList = group.color;
-            for (var k = 0; k < colorList.length(); k++) {
-                var color = colorList[k];
-                var colorType = color.@colorType.toString();
-                jsonData[imageName][groupId][colorType] = [
-                    parseInt(color.@r.toString()),
-                    parseInt(color.@g.toString()),
-                    parseInt(color.@b.toString())
-                ];
-            }
-        }
-    }
-    return jsonData;
+				var colorList = group.color;
+				for (var k = 0; k < colorList.length(); k++) {
+					var color = colorList[k];
+					var colorType = color.@colorType.toString();
+					jsonData[imageName][groupId][colorType] = [
+						parseInt(color.@r.toString()),
+						parseInt(color.@g.toString()),
+						parseInt(color.@b.toString())
+					];
+				}
+			}
+		}
+		return jsonData;
 	}
+	
+	// 转换新JSON
+	// ===========
+	function convertNewJSON(newJson) {
+		// 新的JSON对象
+		var oldJSON = {};
+	
+		// 从原始JSON获取图像名称，并转换为.tga格式
+		var imageName = newJson.colorChartData.image.name;
+		var fileName = imageName;
+	
+		// 初始化文件名键值
+		oldJSON[fileName] = {};
+	
+		// 获取所有组
+		var groups = newJson.colorChartData.image.group;
+		var groupCount = groups.length;
+	
+		// 遍历所有组
+		for (var i = 0; i < groupCount; i++) {
+			var group = groups[i];
+			var groupId = group.id.toString();
+	
+			oldJSON[fileName][groupId] = {};
+	
+			// 检查color数据是单个对象还是数组
+			var colorData = group.color;
+			var isColorArray = Object.prototype.toString.call(colorData) === '[object Array]';
 
+			if (group.validBoxNum === 1 && !isColorArray) {
+				// 如果是单个颜色对象
+				var color = colorData;
+				oldJSON[fileName][groupId][color.colorType] = color.RGB;
+			} else if (group.validBoxNum && isColorArray && colorData.length === group.validBoxNum) {
+				// 如果是颜色数组
+				for (var j = 0; j < colorData.length; j++) {
+					var color = colorData[j];
+					oldJSON[fileName][groupId][color.colorType] = color.RGB;
+				}
+			}
+		}
+	
+		return oldJSON;
+	}
 	// 颜色拾取器单击事件
 	// =================
 	colorPickerBtn.onClick = function() {
@@ -970,7 +1013,7 @@ var palette = (function() {
 	// ===============
 	openFileBtn.onClick = function() {
 		if(typeof myWindow == 'object') myWindow.close()
-		var file = File.openDialog("色見本データ開く");
+		var file = File.openDialog("请打开色见数据文件", "JSON Files:*.json;XML Files:*.xml");
 		if (file !== null) {
 			var fileNameArray = file.name.toLowerCase().split('.');
 			var fileExtension = fileNameArray[fileNameArray.length - 1];
@@ -981,7 +1024,10 @@ var palette = (function() {
 
 			if (fileExtension === 'json') {
 				// 解析 JSON 文件
-				colorChartJson = JSON.parse(content);
+				colorChartJSON = JSON.parse(content);
+				// 检查是否为新版JSON
+				if(colorChartJSON.colorChartData.dataVersion !== undefined)
+					colorChartJSON = convertNewJSON(colorChartJSON);
 				// 启用相应的按钮
 				openCategroyBtn.enabled = true;
 				colorPickerBtn.enabled = true;
@@ -989,18 +1035,18 @@ var palette = (function() {
 			} else if (fileExtension === 'xml') {
 				// 解析 XML 文件
 				var xmlData = new XML(content);
-				colorChartJson = parseXMLtoJSON(xmlData);
+				colorChartJSON = parseXMLtoJSON(xmlData);
 				// 启用相应的按钮
 				openCategroyBtn.enabled = true;
 				colorPickerBtn.enabled = true;
 				extractGruopAllBtn.enabled = true;
 			} else {
-				alert('無効なファイル。JSON か XML ファイルを選んでください。', scriptName);
+				alert('无效的文件类型。请选择 JSON 或 XML 文件。', scriptName);
 			}
 		}
-		myWindow = createButtonsFromJson(colorChartJson);
+		myWindow = createButtonsFromJson(colorChartJSON);
 		// 更新 colorChartImageTxt.text
-		for (var key in colorChartJson) {
+		for (var key in colorChartJSON) {
 			colorChartImageTxt.text = key;
 			imputImage = key;
 			break; // 只取第一个 key 图片名称
@@ -1008,8 +1054,8 @@ var palette = (function() {
 
 		// 更新 listbox
 		colorSlect.removeAll(); // 清除原有列表
-		for (var key in colorChartJson) {
-			var colorInfo = colorChartJson[key];
+		for (var key in colorChartJSON) {
+			var colorInfo = colorChartJSON[key];
 			for (var group in colorInfo) {
 				var colors = colorInfo[group];
 				var colorStr = "";
