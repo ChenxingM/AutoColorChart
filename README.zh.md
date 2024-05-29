@@ -11,7 +11,7 @@
 
 **无需改变现有的制作流程，即可立即使用。**
 
-![Auto Color Chart 2 主窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/mian.png "Auto Color Chart 2 主窗口")
+![Auto Color Chart 2 主窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/mian_cn.png "Auto Color Chart 2 主窗口")
 *Auto Color Chart 2主窗口*
 *演示中使用的色见本已得到公开许可*
 
