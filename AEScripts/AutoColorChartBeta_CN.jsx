@@ -1025,7 +1025,7 @@ var palette = (function() {
 				// 解析 JSON 文件
 				colorChartJSON = JSON.parse(content);
 				// 检查是否为新版JSON
-				if(colorChartJSON.colorChartData.dataVersion !== undefined)
+				if(colorChartJSON.colorChartData !== undefined)
 					colorChartJSON = convertNewJSON(colorChartJSON);
 				// 启用相应的按钮
 				openCategroyBtn.enabled = true;

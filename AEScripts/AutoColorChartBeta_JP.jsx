@@ -542,7 +542,7 @@ var palette = (function() {
 }
 	//全局变量
 	//===========
-	var colorChartJson = {};
+	var colorChartJSON = {};
 	var myWindow;
 	const myBlack = [0, 0, 0];
 
@@ -848,8 +848,8 @@ var palette = (function() {
 		if (selectedLayers.length > 0) {
 			try {
 				var resultArray = [];
-				for (var key in colorChartJson) {
-					var innerObj = colorChartJson[key];
+				for (var key in colorChartJSON) {
+					var innerObj = colorChartJSON[key];
 					for (var innerKey in innerObj) {
 						if (innerObj[innerKey].hasOwnProperty(colorType)) {
 							var colorArray = innerObj[innerKey][colorType];
@@ -964,7 +964,7 @@ var palette = (function() {
 		setColorDisp(pickedColorDisp, myColor, true);
 
 		try {
-			var groupNumber = findColorInJson(colorChartJson, myColorN);
+			var groupNumber = findColorInJson(colorChartJSON, myColorN);
 			if (groupNumber != null) {
 				colorSlect.selection = null;
 				colorSlect.selection = colorSlect.find(groupNumber.toString());
@@ -1026,7 +1026,7 @@ var palette = (function() {
 				// 解析 JSON 文件
 				colorChartJSON = JSON.parse(content);
 				// 检查是否为新版JSON
-				if(colorChartJSON.colorChartData.dataVersion !== undefined)
+				if(colorChartJSON.colorChartData !== undefined)
 					colorChartJSON = convertNewJSON(colorChartJSON);
 				// 启用相应的按钮
 				openCategroyBtn.enabled = true;
@@ -1071,7 +1071,7 @@ var palette = (function() {
 	};
 	
 	openCategroyBtn.onClick = function(){
-		createButtonsFromJson(colorChartJson);
+		createButtonsFromJson(colorChartJSON);
 	}
 
 	// 提取全部组按钮单击事件
