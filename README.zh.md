@@ -1,4 +1,4 @@
-[日本語](README.md)|[简体中文](README.zh.md)
+[日本語](README.md) | [简体中文](README.zh.md) | [English](README.en.md)
 # 色见本识别程序 及配套AE脚本
 # Auto Color Chart 2
 

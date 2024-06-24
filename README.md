@@ -1,4 +1,4 @@
-[日本語](README.md)|[简体中文](README.zh.md)
+[日本語](README.md) | [简体中文](README.zh.md) | [English](README.en.md)
 # 色見本認識 および 撮影処理における色抽出ツール
 # Auto Color Chart 2
 
