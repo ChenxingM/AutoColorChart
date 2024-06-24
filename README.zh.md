@@ -253,4 +253,4 @@
 
 ## 其他
 - Auto Color Chart 1.0的源代码已发布！
-- CY技术大会文章链接 【Cygames Tech Conference フォローアップ】『プリンセスコネクト！Re:Dive』アニメ撮影におけるテクニカルアーティストの役割～最高のアニメRPGを作るための自動化制作事例～　https://tech.cygames.co.jp/archives/3516/
+- CY技术大会文章链接: [【Cygames Tech Conference フォローアップ】『プリンセスコネクト！Re:Dive』アニメ撮影におけるテクニカルアーティストの役割～最高のアニメRPGを作るための自動化制作事例～](https://tech.cygames.co.jp/archives/3516/)
