@@ -5,7 +5,7 @@
 # Auto Color Chart 2.4.0 は年内にリリース予定です。
 ## ダークのUIと完全に新しい色見本データフォーマット。色見本データ閲覧・編集ソフトに加え、AEの方も一括色見本データを読み込み可能に。
 ## アップデートチェック機能とアクティベート機能が実装されています。お楽しみに。
-![2.4主窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/2.4mian.png "Auto Color Chart 2.4.0 メインウィンド")
+![2.4主窗口](https://github.com/ChenxingM/AutoColorChart/blob/main/screenshoots/2.4mian.PNG "Auto Color Chart 2.4.0 メインウィンド")
 
 ## *ユーザーガイドブック作成中、今しばらくお待ちください。*
 
